@@ -68,7 +68,7 @@ function like(resolve, index, max_likes) {
                 resolve();
                 return;
             } else {
-                if (classname.indexOf('whiteoutSpriteHeartOpen') > 0) {
+                if (classname.indexOf('coreSpriteHeartOpen') > 0) {
                     browser.findElement(by.xpath(xpath_like_button)).click();
                     browser.sleep(settings.sleep_delay);
                 };
